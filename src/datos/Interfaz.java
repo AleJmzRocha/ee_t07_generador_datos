@@ -3,7 +3,11 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-
+/**
+ * 
+ * @author Jiménez Rocha Alejandra
+ *
+ */
 public class Interfaz extends JFrame implements ActionListener, ChangeListener{
 	private static final long serialVersionUID = 1L;
 	JCheckBox nombres = new JCheckBox("Nombres"), apellidoPat = new JCheckBox("Apellidos Paternos"), apellidoMat = new JCheckBox("Apellidos Maternos"); 

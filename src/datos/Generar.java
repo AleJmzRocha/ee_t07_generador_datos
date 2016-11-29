@@ -1,7 +1,11 @@
 package datos;
 import java.io.*;
 import javax.swing.*;
-
+/**
+ * 
+ * @author Jiménez Rocha Alejandra
+ *
+ */
 public class Generar {
 	Integer aleatorio;
 	String[] nombres, apellidos, id, numControl, email, telFijos, direcciones, cp, cel, combinacion;
